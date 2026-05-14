@@ -1,0 +1,25 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000001f1be2d2510 .scope module, "and_gate" "and_gate" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "y";
+o000001f1be306718 .functor BUFZ 1, C4<z>; HiZ drive
+o000001f1be306748 .functor BUFZ 1, C4<z>; HiZ drive
+L_000001f1be2d2b70 .functor AND 1, o000001f1be306718, o000001f1be306748, C4<1>, C4<1>;
+v000001f1be2d2d90_0 .net "a", 0 0, o000001f1be306718;  0 drivers
+v000001f1be2d2fb0_0 .net "b", 0 0, o000001f1be306748;  0 drivers
+v000001f1be2d26a0_0 .net "y", 0 0, L_000001f1be2d2b70;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "gates.v";

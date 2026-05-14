@@ -1,0 +1,59 @@
+$date
+	Tue May 12 18:50:53 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_M_ff_register $end
+$var wire 8 ! q [7:0] $end
+$var reg 1 " clk $end
+$var reg 8 # d [7:0] $end
+$var reg 1 $ rst $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 8 % d [7:0] $end
+$var wire 1 $ rst $end
+$var reg 8 & q [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx &
+b10101010 %
+1$
+b10101010 #
+0"
+bx !
+$end
+#5000
+b0 !
+b0 &
+1"
+#10000
+0"
+0$
+#15000
+b10101010 !
+b10101010 &
+1"
+#20000
+0"
+b11110000 #
+b11110000 %
+#25000
+b11110000 !
+b11110000 &
+1"
+#30000
+0"
+#35000
+1"
+#40000
+0"
