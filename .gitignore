@@ -1,0 +1,10 @@
+# Icarus Verilog / simulation build artifacts
+*.out
+*.vcd
+a.out*
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
