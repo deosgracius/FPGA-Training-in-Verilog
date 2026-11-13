@@ -20,6 +20,7 @@ not committed — regenerate it with Icarus Verilog.
 **Projects**
 - `deoMwala-Project1/` — vending machine FSM (coin counter → beverage + change dispensers)
 - `deoMwala-Project2/` — register file
+- `deoMwala-RAM-Project4/`, `deoMwala-ROM-Project4/` — RAM and ROM memory modules
 - `firstLast-HW2/` — console + gamepad game
 
 **Microarchitecture**
