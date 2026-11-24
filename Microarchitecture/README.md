@@ -21,6 +21,7 @@ not committed — regenerate it with Icarus Verilog.
 - `deoMwala-Project1/` — vending machine FSM (coin counter → beverage + change dispensers)
 - `deoMwala-Project2/` — register file
 - `deoMwala-RAM-Project4/`, `deoMwala-ROM-Project4/` — RAM and ROM memory modules
+- `FinalProject-PipelinedCPU/` — **final project:** a 4-stage pipelined 32-bit CPU (ALU, register file, decoder, ROM, RAM) with hazard interlocks, branch flushing, and a self-checking testbench
 - `firstLast-HW2/` — console + gamepad game
 
 **Microarchitecture**
