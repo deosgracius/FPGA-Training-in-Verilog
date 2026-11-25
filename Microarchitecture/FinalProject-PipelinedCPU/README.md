@@ -6,6 +6,8 @@ It fetches 49-bit instructions from a ROM, executes a four-stage pipeline with h
 handling, and reads/writes a 32-bit RAM. A self-checking testbench runs the included
 program and prints `PASS`/`FAIL` for every register and memory location it touches.
 
+![CPU datapath — 4-stage pipeline (IF / ID / EX / WB) with PC, instruction decoder, 32x32 register file, ALU, branch unit, hazard unit and RAM write-back](datapath.png)
+
 ## Pipeline
 
 | Stage | What happens |
@@ -58,7 +60,8 @@ gtkwave main_tb.vcd            # optional: inspect the waveform
 
 ## Documentation
 
-- `datapath.pdf` — the datapath diagram the pipeline is built from.
+- `datapath.png` / `datapath.pdf` — the CPU datapath diagram the pipeline is built from (shown above).
+- `structure.png` — the top-level project structure (testbench wiring CPU, ROM, RAM and clock).
 - `cpu_cpu.svg` — a synthesized schematic of the CPU (generated with Yosys/netlistsvg).
 
 Compiled output (`*.out`, `*.vcd`, `build/`) is intentionally not committed — regenerate it
